@@ -1,0 +1,61 @@
+<!-- block.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blocked - Stay Focused!</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      background-color: #fff5f8;
+      color: #d6336c;
+      padding-top: 50px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+    }
+
+    .panda-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .panda {
+      width: 200px;
+      height: auto;
+      animation: bounce 2s infinite ease-in-out;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1>This site is blocked</h1>
+  <p>Take a break and stay focused! 🧘‍♀️✨</p>
+
+  <div class="panda-container">
+    <img class="panda" src="https://media.giphy.com/media/Rkis28kMJd1aE/giphy.gif" alt="Relaxing Panda" />
+  </div>
+</body>
+</html>
